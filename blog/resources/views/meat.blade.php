@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-
+    @include('nav')
     <h1>This is the meat directory</h1>
 
   </body>

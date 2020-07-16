@@ -86,11 +86,11 @@
 
                 <div class="links">
 
-                  <a href="https://laravel.com/docs">I'm Looking for Vegetables/Fruit</a>
+                  <a href="/veg">I'm Looking for Vegetables/Fruit</a>
 
 
 
-                    <a href="https://laracasts.com">I'm looking for Meat/Eggs.</a>
+                    <a href="/meat">I'm looking for Meat/Eggs.</a>
 
                 </div>
             </div>

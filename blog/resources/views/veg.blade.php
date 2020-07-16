@@ -7,6 +7,8 @@
   </head>
   <body>
 
+    @include('nav')
+
     <h1>This is the Vegatables directory</h1>
 
   </body>
