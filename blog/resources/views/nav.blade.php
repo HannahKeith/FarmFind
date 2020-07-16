@@ -1,7 +1,6 @@
 
-
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/meat">Meat</a></li>
-  <li><a href="/veg">Vegetables</a></li>
-</ul>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="/">Home</a>
+  <a class="navbar-brand" href="/meat">Meat</a>
+  <a class="navbar-brand" href="/veg">Vegetables</a>
+</nav>
