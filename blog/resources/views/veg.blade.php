@@ -4,12 +4,15 @@
   <head>
     <meta charset="utf-8">
     <title>Vegetables</title>
+
+    <link rel="stylesheet" href="./resources/sass/app.scss">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   </head>
   <body>
-
-    @include('nav')
-
-    <h1>This is the Vegatables directory</h1>
+      @include('nav')
+    <h1>This is the Vegetables directory</h1>
 
   </body>
 </html>
