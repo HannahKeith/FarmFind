@@ -16,6 +16,7 @@
       <div class="mx-auto" style="width: 600px;">
         <div class="">
           <h1>This is the Vegetables directory</h1>
+          <h2>{{$coolstring}}</h2>
         </div>
 
       </div>

@@ -7,7 +7,15 @@
   </head>
   <body>
     @include('nav')
-    <h1>This is the meat directory</h1>
+
+    <div class="mx-auto" style="width: 600px;">
+      <div class="">
+        <h1>This is the meat directory</h1>
+        <h2>{{$coolstring}}</h2>
+      </div>
+
+    </div>
+
 
   </body>
 </html>
