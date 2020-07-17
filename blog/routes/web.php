@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('veg', function () {
-    return view('veg');
-});
+Route::get('/veg', 'vegController@index');
+
+
 
 Route::get('meat', function () {
     return view('meat');
