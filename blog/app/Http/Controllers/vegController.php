@@ -9,11 +9,9 @@ class vegController extends Controller
     public function index()
 
     {
-        $coolstring = 'hello from routes';
+        $coolstring = 'hello from veg controller';
 
         return view ('veg', compact('coolstring'));
-
-
 
     }
 }

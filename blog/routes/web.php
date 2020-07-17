@@ -21,6 +21,4 @@ Route::get('/veg', 'vegController@index');
 
 
 
-Route::get('meat', function () {
-    return view('meat');
-});
+Route::get('/meat', 'meatController@index');
