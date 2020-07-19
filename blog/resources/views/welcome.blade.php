@@ -6,17 +6,19 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" href="../css/app.css">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: none ;
+                color: black;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
+                font-weight: 800;
+                height: 200vh;
                 margin: 0;
             }
 
@@ -49,9 +51,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #343a40;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 25px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -61,10 +63,21 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .picture {
+              background-image:url("https://i.postimg.cc/cCfmb7C9/healthy-vegetables-hand-gardening-9301.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 300px;
+              width: 500px;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+      <div class="picture">
+
+      </div>
+        <div class="flex-center position-ref full-height" >
 
 
             <div class="content">
