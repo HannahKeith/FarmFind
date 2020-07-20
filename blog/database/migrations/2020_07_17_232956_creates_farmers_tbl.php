@@ -16,6 +16,9 @@ class CreatesFarmersTbl extends Migration
         Schema::create('farmers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('phone');
+            $table->string('address');
+            $table->string('email');
             $table->timestamps();
         });
     }

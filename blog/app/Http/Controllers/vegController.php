@@ -9,9 +9,20 @@ class vegController extends Controller
     public function index()
 
     {
-        $coolstring = 'hello from veg controller';
 
-        return view ('veg', compact('coolstring'));
+        return view ('veg');
 
     }
+
+    public function farmers()
+    {
+      $farmers = \App\Farmer::all();
+
+      dd($farmers);
+
+      
+
+
+    }
+
 }
