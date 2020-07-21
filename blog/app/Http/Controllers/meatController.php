@@ -9,9 +9,9 @@ class meatController extends Controller
     public function index()
 
     {
-        $coolstring = 'hello from meat controller';
+      $farmers = \App\Farmer::all();
 
-        return view ('meat', compact('coolstring'));
+      return view ('meat', compact('farmers'));
 
     }
 }

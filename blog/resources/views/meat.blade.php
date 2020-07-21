@@ -11,8 +11,20 @@
     <div class="mx-auto" style="width: 600px;">
       <div class="">
         <h1>This is the meat directory</h1>
-        <h2>{{$coolstring}}</h2>
+
       </div>
+
+      @forelse($farmers as $farmer)
+
+        <li>{{$farmer->name}}</li>
+        <li>{{$farmer->phone}}</li>
+        <li>{{$farmer->address}}</li>
+        <li>{{$farmer->email}}</li>
+
+        @empty
+        <li>No farmers in your area</li>
+
+        @endforelse
 
     </div>
 
