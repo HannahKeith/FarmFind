@@ -8,7 +8,7 @@
   <body>
     @include('nav')
 
-    <div class="mx-auto" style="width: 600px;">
+    <div class="mx-auto" style="width: 700px;">
       <div class="">
         <h1>This is the meat directory</h1>
 
