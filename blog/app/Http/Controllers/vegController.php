@@ -9,20 +9,14 @@ class vegController extends Controller
     public function index()
 
     {
+        $farmers = \App\Farmer::all();
 
-        return view ('veg');
-
-    }
-
-    public function farmers()
-    {
-      $farmers = \App\Farmer::all();
-
-      dd($farmers);
-
-      
-
+        return view ('veg', compact('farmers'));
 
     }
+
+
+
+
 
 }
