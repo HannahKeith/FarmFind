@@ -16,6 +16,18 @@
 
 @forelse($farmers as $farmer)
 
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{$farmer->name}}</h5>
+    <p class="card-text">S  <li>{{$farmer->phone}}</li>
+      <li>{{$farmer->address}}</li>
+      <li>{{$farmer->email}}</li></p>
+    <a href="#" class="btn btn-primary">Visit Farmer</a>
+  </div>
+</div>
+
   <li>{{$farmer->name}}</li>
   <li>{{$farmer->phone}}</li>
   <li>{{$farmer->address}}</li>
