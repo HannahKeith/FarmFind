@@ -14,12 +14,12 @@
 
       </div>
 
-      @forelse($farmers as $farmer)
+      @forelse($farms as $farm)
 
-        <li>{{$farmer->name}}</li>
-        <li>{{$farmer->phone}}</li>
-        <li>{{$farmer->address}}</li>
-        <li>{{$farmer->email}}</li>
+        <li>{{$farm->farm_name}}</li>
+        <li>{{$farm->phone}}</li>
+        <li>{{$farm->address}}</li>
+
 
         @empty
         <li>No farmers in your area</li>
